@@ -8,7 +8,7 @@ package com.iweili.touch.learning;
  * To change this template use File | Settings | File Templates.
  * Learning Java Assert
  */
-public class JavaAssert {
+public class MyAssert {
 
     public void run(String[] args) {
 

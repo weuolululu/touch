@@ -1,6 +1,6 @@
 package com.iweili.touch;
 
-import com.iweili.touch.learning.JavaAssert;
+import com.iweili.touch.learning.MySynchronize;
 
 /**
  * Hello world!
@@ -11,8 +11,13 @@ public class App
     public static void main( String[] args )
     {
 //        System.out.println( "Hello World!" );
-        JavaAssert javaAssert = new JavaAssert();
-        javaAssert.run(args);
+
+//        // learning.MyAssert
+//        MyAssert myAssert = new MyAssert();
+//        myAssert.run(args);
+
+        // learning.MySynchronize
+        MySynchronize.mainRun(args);
     }
 
 }
